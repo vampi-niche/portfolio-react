@@ -1,13 +1,13 @@
 import React from "react";
-import { Container, Row, Col, Tooltip } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import { Container, Row, Col} from "react-bootstrap";
+import myImg from "../../Assets/av.png";
 import Tilt from "react-parallax-tilt";
 import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
   return (
-    <Container fluid className="home-about-section" id="about">
+    <Container fluid className="home-section" id="about">
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
@@ -31,12 +31,12 @@ function Home2() {
               <br />
               My interests lie in crafting{" "}
               <b className="blue">scalable complex systems</b>{" "}
-              <Tooltip text="(but i like to keep it simple)" />, investing in
+              <span text="(but i like to keep it simple)" />, investing in
               <b className="blue"> modern engineering </b>, and implementing{" "}
               <b className="blue"> security </b>{" "}
-              <Tooltip>to face challenges</Tooltip>.
+              <span>to face challenges</span>.
               <br />
-              <br />I can make a conversations in
+              <br />I can make conversations in
               <b className="blue"> English </b>,<b className="blue"> Telugu </b>
               ,<b className="blue"> Hindi </b>,<b className="blue"> Tamil </b>{" "}
               and

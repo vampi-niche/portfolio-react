@@ -10,13 +10,13 @@ function AboutCard() {
             <span className="blue">Vamshi Chittaloori</span> is 
             from <span className="blue"> Hyderabad, India.</span>
             <br />
-            He is currently pursuing his Master's degree in <br /><span className="blue"> Inforamation Technology Security </span> from 
+            He has a Master's degree in <br /><span className="blue"> Inforamation Technology Security </span> from 
             Arizona State University,
             <br />
-            where he is also working as <span className="blue"> Technology Consultant</span>.
+            where he also worked as <span className="blue"> Technology Consultant</span>.
 
             <br/>
-            He was also a <span className="blue"> Software Engineer </span>at Wipro.
+            He was a <span className="blue"> Software Engineer </span>at Wipro.
             <br />
             <br />
           </p>
