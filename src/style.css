@@ -221,7 +221,7 @@ button:focus {
   padding-top: 80px !important;
 }
 
-.home-section {
+#home {
   position: relative;
   z-index: -1;
   background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
