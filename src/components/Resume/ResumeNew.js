@@ -10,10 +10,15 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
+  const [showNumber, setShowNumber] = useState(false);
 
   useEffect(() => {
     setWidth(window.innerWidth);
   }, []);
+
+  const revealNumber = () => {
+    setShowNumber(true);
+  };
 
   return (
     <div>
@@ -29,6 +34,22 @@ function ResumeNew() {
             <AiOutlineDownload />
             &nbsp;Download Resume
           </Button>
+        </Row>
+
+        <Row className = "contactNumber" style={{ justifyContent: "center", position: "relative" }}>
+          You can contact me:
+          {showNumber ? (
+            <strong className="blue">+1 (123) 456-7890</strong>
+          ) : (
+            <Row style={{ justifyContent: "center", position: "relative" }}>
+            <Button 
+              variant="primary" 
+              style={{ maxWidth: "150px" }}
+              onClick={revealNumber}
+              >
+              Click to reveal
+            </Button> </Row>
+          )}
         </Row>
 
         <Row className="resume">
