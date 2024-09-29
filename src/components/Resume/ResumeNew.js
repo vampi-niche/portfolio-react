@@ -39,7 +39,7 @@ function ResumeNew() {
         <Row className = "contactNumber" style={{ justifyContent: "center", position: "relative" }}>
           You can contact me:
           {showNumber ? (
-            <strong className="blue">+1 (123) 456-7890</strong>
+            <strong className="blue">+1 (480) 847-8278</strong>
           ) : (
             <Row style={{ justifyContent: "center", position: "relative" }}>
             <Button 
